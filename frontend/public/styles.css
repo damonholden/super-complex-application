@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'poor-story';
+  src: url('./fonts/PoorStory-Regular.ttf');
+}
+
+* {
+  font-family: 'poor-story';
+}
+
+body {
+  background-color: yellowgreen;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
