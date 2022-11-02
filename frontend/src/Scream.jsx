@@ -7,10 +7,11 @@ export const Scream = () => {
 
   return (
     <section>
+      <h2>scream string</h2>
       <label>type something to be screamed:</label>
       <input value={input} onChange={(e) => setInput(e.target.value)}/>
       <button onClick={() => setScreamedInput(screamString(input))}>scream</button>
-      <p>{screamedInput}</p>
+      <output>{screamedInput}</output>
     </section>
   );
 };
